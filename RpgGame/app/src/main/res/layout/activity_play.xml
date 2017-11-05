@@ -39,7 +39,7 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:onClick="onButton2"
-        android:text="スタート"
+        android:text="Map"
         android:textSize="30sp"
         tools:layout_editor_absoluteY="117dp"
         tools:layout_editor_absoluteX="0dp" />

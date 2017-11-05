@@ -14,9 +14,7 @@ public class OverActivity extends AppCompatActivity {
     }
 
     public void onButton3(View v) {
-        finish();
-    }
-
-    public void onButton2(View view) {
+        Intent intent = new Intent(this, PlayActivity.class);
+        startActivity(intent);
     }
 }
