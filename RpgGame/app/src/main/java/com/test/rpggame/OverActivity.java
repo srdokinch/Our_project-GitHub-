@@ -17,4 +17,5 @@ public class OverActivity extends AppCompatActivity {
         Intent intent = new Intent(this, PlayActivity.class);
         startActivity(intent);
     }
+
 }

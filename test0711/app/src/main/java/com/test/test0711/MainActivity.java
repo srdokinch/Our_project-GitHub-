@@ -7,24 +7,12 @@ import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
 
-    public void b0(View v){
-        ((ImageView) findViewById(R.id.back)).setImageResource(R.drawable.b0);
-    }
-
-    public void b1(View v){
-        ((ImageView) findViewById(R.id.back)).setImageResource(R.drawable.b1);
-    }
-
-    public void b2(View v){
-        ((ImageView) findViewById(R.id.back)).setImageResource(R.drawable.b2);
-    }
-
     public void right(View v){
-        ((ImageView) findViewById(R.id.back)).setImageResource(R.drawable.b5);
+        ((ImageView) findViewById(R.id.back)).setImageResource(R.drawable.shop);
     }
 
     public void left(View v){
-        ((ImageView) findViewById(R.id.back)).setImageResource(R.drawable.b4);
+        ((ImageView) findViewById(R.id.back)).setImageResource(R.drawable.warderobe);
     }
 
 

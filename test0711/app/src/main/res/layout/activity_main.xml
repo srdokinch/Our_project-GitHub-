@@ -10,34 +10,9 @@
         android:id="@+id/back"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scaleType="centerCrop"
-        android:src="@drawable/b0" />
+        android:scaleType="fitCenter"
+        android:src="@drawable/title" />
 
-    <Button
-        android:id="@+id/b0"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="b0"
-        android:text="0m"
-        />
-
-    <Button
-        android:id="@+id/b1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/b0"
-        android:onClick="b1"
-        android:text="10m" />
-
-    <Button
-        android:id="@+id/b2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="b2"
-        android:text="20m"
-        android:layout_below="@+id/b1"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
 
     <!-- android:backgroundに作成したdrawableを指定。 -->
     <Button
